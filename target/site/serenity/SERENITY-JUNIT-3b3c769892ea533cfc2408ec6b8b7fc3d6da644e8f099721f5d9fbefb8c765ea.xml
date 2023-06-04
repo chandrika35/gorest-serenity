@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="com.gorest.gorestinfo.GoRestCRUDTestWithSteps" skipped="0" tests="1" time="1.47" timestamp="2023-06-03T20:34:55.674+01:00[Europe/London]"><testcase classname="com.gorest.gorestinfo.GoRestCRUDTestWithSteps" name="This method will create a new users record and verify it by its ID"><error message="baseURI cannot be null" type="java.lang.IllegalArgumentException">baseURI cannot be null</error><system-err>baseURI cannot be null&#13;
+io.restassured.internal.assertion.AssertParameter.notNull(AssertParameter.groovy:26)&#13;
+io.restassured.internal.RequestSpecificationImpl.&lt;init&gt;(RequestSpecificationImpl.groovy:132)&#13;
+io.restassured.RestAssured.createTestSpecification(RestAssured.java:1492)&#13;
+io.restassured.RestAssured.given(RestAssured.java:711)&#13;
+net.serenitybdd.rest.SerenityRest.given(SerenityRest.java:211)&#13;
+com.gorest.gorestinfo.GoRestSteps.createUserRecord(GoRestSteps.java:18)&#13;
+com.gorest.gorestinfo.GoRestCRUDTestWithSteps.test002(GoRestCRUDTestWithSteps.java:41)&#13;
+</system-err></testcase></testsuite>
